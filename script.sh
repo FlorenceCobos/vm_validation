@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Bonjour, nous allons créer ensemble une machine virtuelle!"
+echo "Bonjour, nous allons configurer ensemble une machine virtuelle!"
 mkdir mamachinevirtuelle
 cd mamachinevirtuelle
 touch Vagrantfile
