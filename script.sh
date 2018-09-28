@@ -14,7 +14,7 @@ echo "config.vm.box = 'ubuntu/xenial64'" >> Vagrantfile
 echo " A présent, choisissez une IP pour votre serveur !"
 read votreadresseip
 echo "config.vm.network 'private_network', ip: '$votreadresseip'" >> Vagrantfile
-echo "Choisissez un nom pour votre dossier affilié?"
+echo "Choisissez un nom pour votre dossier affilié"
 read nomdudossier
 echo "config.vm.synced_folder './$nomdudossier', '/var/www/html'" >> Vagrantfile
 
